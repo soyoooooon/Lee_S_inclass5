@@ -1,3 +1,8 @@
+.hidden
+{
+display: none;
+}
+
 .box
 {
 width: 50px;
@@ -23,3 +28,53 @@ color: white;
 text-transform: uppercase;
 }
 
+/* these are the css buttons styles */
+
+body
+{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+padding: 20px 0 0 20px;
+}
+
+.button
+{
+padding: 10px;
+text-align: center;
+text-decoration: none;
+color: orange;
+cursor: pointer;
+border-radius: 5px;
+
+/* add a box shadow */
+box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.button:active
+{
+position:relative;
+top: 10px;
+
+}
+
+
+.brown
+{
+background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+.manu
+{
+width: 1000px;
+height: 40px;
+margin: auto;
+
+}
